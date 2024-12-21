@@ -5,8 +5,11 @@ import logo from '../assets/fullWordmark-White.png';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleMenu = () => {
-    window.scrollTo(0, 0);
     setIsMenuOpen(!isMenuOpen);
+  };
+  const menuLink = () => {
+    window.scrollTo(0, 0);
+    toggleMenu();
   };
   const scrollTop = () => {
     window.scrollTo(0, 0);
@@ -52,7 +55,7 @@ export default function Header() {
             <img src={logo} alt="logo" className="h-8 w-auto object-contain" />
           </Link>
         </div>
-        <button onClick={toggleMenu} className="mr-10">
+        <button onClick={toggleMenu} className="mr-4 p-6">
           <div className={`mb-2 h-1 w-8 rounded bg-white`}></div>
           <div className={`mb-2 h-1 w-8 rounded bg-white`}></div>
           <div className={`mb-2 h-1 w-8 rounded bg-white`}></div>
@@ -63,7 +66,7 @@ export default function Header() {
         <div className="fixed inset-0 z-50 flex w-full flex-col items-center justify-center gap-16 bg-primary text-lg text-ivory">
           <div className="absolute top-[22px] flex w-full flex-row justify-between pt-3">
             <div className="ml-[72px]">
-              <Link to="/" onClick={toggleMenu}>
+              <Link to="/" onClick={menuLink}>
                 <img src={logo} alt="logo" className="relative h-10 w-auto object-contain" />
               </Link>
             </div>
@@ -71,19 +74,19 @@ export default function Header() {
               ✕
             </button>
           </div>
-          <Link to="/" onClick={toggleMenu}>
+          <Link to="/" onClick={menuLink}>
             <p className="text-[50px] font-light">Home</p>
           </Link>
-          <Link to="/about" onClick={toggleMenu}>
+          <Link to="/about" onClick={menuLink}>
             <p className="text-[50px] font-light">About</p>
           </Link>
-          <Link to="/services" onClick={toggleMenu}>
+          <Link to="/services" onClick={menuLink}>
             <p className="text-[50px] font-light">Services</p>
           </Link>
-          <Link to="/team" onClick={toggleMenu}>
+          <Link to="/team" onClick={menuLink}>
             <p className="text-[50px] font-light">Our team</p>
           </Link>
-          <Link to="/faq" onClick={toggleMenu}>
+          <Link to="/faq" onClick={menuLink}>
             <p className="text-[50px] font-light">FAQ</p>
           </Link>
           <a
