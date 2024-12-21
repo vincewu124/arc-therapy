@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -10,6 +10,29 @@ import Faq from './components/faq/Faq';
 import Terms from './components/terms/Terms';
 
 function App() {
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    const preloadImages = (srcArray) => {
+      const loadedImages = srcArray.map((src) => {
+        const img = new Image();
+        img.src = src;
+        return img.src;
+      });
+      return loadedImages;
+    };
+
+    const imagePaths = [
+      new URL('./assets/services/serviceMassage.png', import.meta.url).href,
+      new URL('./assets/services/servicePhysio.png', import.meta.url).href,
+      new URL('./assets/services/serviceKin.png', import.meta.url).href,
+      new URL('./assets/services/serviceChiro.png', import.meta.url).href,
+      new URL('./assets/services/serviceAcu.png', import.meta.url).href,
+    ];
+
+    setImages(preloadImages(imagePaths));
+  }, []);
+
   return (
     <div className="flex min-h-screen flex-col bg-ivory">
       <Header></Header>
@@ -17,7 +40,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
+          <Route path="/services" element={<Services images={images} />} />
           <Route path="/team" element={<Team />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/terms" element={<Terms />} />

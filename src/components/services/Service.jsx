@@ -1,19 +1,10 @@
 import React from 'react';
 
-const Service = ({ data: { title, img, description, types, benefitType, benefits }, transition }) => {
+const Service = ({ data: { title, img, description, types, benefitType, benefits } }) => {
   return (
-    <div className={`max-w-[1200px] transition-opacity duration-[400ms] ${transition ? 'opacity-0' : 'opacity-100'}`}>
+    <div className={`max-w-[1200px]`}>
       <div className="flex flex-col items-start">
-        <img
-          src={img}
-          alt=""
-          className={`min-h-[264px] w-full object-cover pb-10`}
-          style={{
-            visibility: transition ? 'hidden' : 'visible',
-            opacity: transition ? 0 : 1,
-            transition: 'opacity 400ms ease-in-out',
-          }}
-        />
+        <img src={img} alt="" className={`min-h-[264px] w-full object-cover pb-10`} />
         <header className="pb-11 text-[32px] font-medium">{title}</header>
         <span className="pb-10 text-[20px] font-normal">{description}</span>
         {types &&

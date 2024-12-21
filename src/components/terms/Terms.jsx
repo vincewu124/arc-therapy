@@ -132,7 +132,7 @@ const Terms = () => {
         })}
         <p>ARC Therapy</p>
         <p>Email: info@arctherapy.ca</p>
-        <p>Phone: [Your Phone Number]</p>
+        <p>Phone: (604)-285-9922</p>
         <p>Address: #135-6020 Blundell Road, Richmond BC.</p>
       </div>
     </div>
