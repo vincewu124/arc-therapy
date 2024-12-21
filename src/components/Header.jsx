@@ -7,13 +7,16 @@ export default function Header() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
   const menuLink = () => {
-    window.scrollTo(0, 0);
+    scrollTop();
     toggleMenu();
   };
+
   const scrollTop = () => {
     window.scrollTo(0, 0);
   };
+
   return (
     <header className="sticky top-0 z-10 flex h-100 items-center bg-primary font-spaceGrotesk text-ivory">
       <nav className="flex w-full items-center justify-between max-xl:hidden">
