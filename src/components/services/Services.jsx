@@ -289,7 +289,7 @@ const Services = ({ images }) => {
             href="https://alignrecoverconnect.janeapp.com/"
             target="_blank"
             rel="noreferrer"
-            className={`duration-400 mt-10 whitespace-nowrap rounded-xl bg-primary px-5 py-3 text-[20px] text-ivory`}
+            className={`duration-400 mt-10 whitespace-nowrap rounded-xl bg-primary px-5 py-3 text-[20px] text-ivory max-xl:text-[30px]`}
           >
             Book now
           </a>

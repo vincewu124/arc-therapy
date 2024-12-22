@@ -38,7 +38,9 @@ const About = () => {
         <header className="text-[48px] font-bold">About</header>
         <div className="h-[6px] w-[140px] rounded-[4px] border bg-sage"></div>
       </div>
-      <p className="text-center text-[20px] max-sm:px-10">Align your body, recover your potential, connect with the lifestyle you love.</p>
+      <p className="text-center text-[20px] max-sm:px-10 max-xl:text-[30px] max-xl:px-36">
+        Align your body, recover your potential, connect with the lifestyle you love.
+      </p>
       <div className="w-full pb-40 pt-10 max-xl:mx-10">
         {aboutData.map((about) => {
           return <AboutRow data={about} key={about.title} />;

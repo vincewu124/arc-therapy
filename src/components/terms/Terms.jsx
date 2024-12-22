@@ -116,12 +116,12 @@ const termsData = [
 
 const Terms = () => {
   return (
-    <div className="flex flex-col items-center font-spaceGrotesk">
+    <div className="flex flex-col items-center font-spaceGrotesk max-xl:px-20">
       <div className="flex h-[170px] flex-col items-center justify-center pt-[25px]">
         <header className="text-[48px] font-bold">Terms & condition</header>
         <div className="h-[6px] w-[140px] rounded-[4px] border bg-sage"></div>
       </div>
-      <div className="w-full max-w-[940px] pb-40 text-left text-[20px]">
+      <div className="w-full max-w-[940px] pb-40 text-left text-[20px] max-xl:text-[30px]">
         <p>
           At ARC Therapy, your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information in
           compliance with Canadian privacy laws, including the Personal Information Protection and Electronic Documents Act (PIPEDA).

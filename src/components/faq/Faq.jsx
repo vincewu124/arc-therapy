@@ -95,7 +95,7 @@ const faqData = [
   {
     question: 'Do you accept ICBC claims?',
     answer: [
-      `Yes, we accept ICBC with select therapists. If you have any questions about the process, please feel free to reach out to us at _______. `,
+      `Yes, we accept ICBC with select therapists. If you have any questions about the process, please feel free to reach out to us at info@arctherapy.ca. `,
     ],
     additional: null,
   },

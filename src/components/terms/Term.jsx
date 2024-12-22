@@ -3,7 +3,7 @@ import React from 'react';
 const Term = ({ data: { title, description } }) => {
   return (
     <div className="w-full pb-7">
-      <header className="pb-7 text-[28px] font-medium">{title}</header>
+      <header className="pb-7 text-[28px] font-medium max-xl:text-[42px]">{title}</header>
       {description.map((info, index) => {
         return (
           <div index={index} className="font-normal">

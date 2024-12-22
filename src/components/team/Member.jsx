@@ -7,10 +7,15 @@ const Member = ({ data: { img, name, description, extra, top, left, scale, link 
         <img src={img} alt="" className="relative object-cover" style={{ top: top, transform: `scale(${scale})`, left: left }} />
       </div>
       <div className="flex max-w-[581px] flex-col items-start">
-        <header className="pb-10 text-[28px] font-medium">{name}</header>
-        <p className="pb-8 text-[20px]">{description}</p>
-        <p className="text-[20px]">{extra}</p>
-        <a href={link} target="_blank" rel="noreferrer" className="mt-10 h-[50px] rounded-xl bg-primary px-5 text-[20px] text-ivory">
+        <header className="pb-10 text-[28px] font-medium max-xl:text-[42px]">{name}</header>
+        <p className="pb-8 text-[20px] max-xl:text-[30px]">{description}</p>
+        <p className="text-[20px] max-xl:text-[30px]">{extra}</p>
+        <a
+          href={link}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-10 h-[50px] rounded-xl bg-primary px-5 text-[20px] max-xl:text-[30px] text-ivory max-xl:py-9"
+        >
           <p className="flex h-full w-full items-center justify-center">Book with {name.match(/^\S+/)[0]}</p>
         </a>
       </div>

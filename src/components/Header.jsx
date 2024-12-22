@@ -18,7 +18,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-10 flex h-100 items-center bg-primary font-spaceGrotesk text-ivory">
+    <header className="sticky top-0 z-10 flex h-100 items-center bg-primary font-spaceGrotesk text-ivory max-xl:h-[150px]">
       <nav className="flex w-full items-center justify-between max-xl:hidden">
         <Link to="/">
           <img src={logo} alt="logo" className="relative left-[72px] h-12 w-auto object-contain" />
@@ -55,7 +55,7 @@ export default function Header() {
       <nav className="hidden h-full w-full flex-row items-center justify-between bg-primary max-xl:flex">
         <div className="ml-[72px]">
           <Link to="/">
-            <img src={logo} alt="logo" className="h-8 w-auto object-contain" />
+            <img src={logo} alt="logo" className="h-12 w-auto object-contain" />
           </Link>
         </div>
         <button onClick={toggleMenu} className="mr-4 p-6">
@@ -67,10 +67,10 @@ export default function Header() {
 
       {isMenuOpen && (
         <div className="fixed inset-0 z-50 flex w-full flex-col items-center justify-center gap-16 bg-primary text-lg text-ivory">
-          <div className="absolute top-[22px] flex w-full flex-row justify-between pt-3">
+          <div className="absolute top-[40px] flex w-full flex-row justify-between pt-3">
             <div className="ml-[72px]">
               <Link to="/" onClick={menuLink}>
-                <img src={logo} alt="logo" className="relative h-10 w-auto object-contain" />
+                <img src={logo} alt="logo" className="relative h-12 w-auto object-contain" />
               </Link>
             </div>
             <button className="mr-10 h-8 w-8 text-[50px] text-white" onClick={toggleMenu}>

@@ -6,7 +6,7 @@ const Question = ({ data: { question, answer, additional }, isOpen, onToggle }) 
   return (
     <div className="px-4 pt-7 hover:cursor-pointer" onClick={onToggle}>
       <button className="flex h-full w-full flex-row items-center justify-between text-left">
-        <p className="text-[28px] font-normal">{question}</p>
+        <p className="text-[28px] font-normal max-xl:text-[42px]">{question}</p>
         <span className={`inline-block transition-opacity duration-300 ${isOpen ? 'rotate-[270deg]' : 'rotate-90'}`}>
           <img src={arrow} alt="" />
         </span>
@@ -23,18 +23,18 @@ const Question = ({ data: { question, answer, additional }, isOpen, onToggle }) 
         <div className="pb-7">
           {answer.map((answer, index) => {
             return (
-              <div className="pb-3 text-[20px] font-normal" key={index}>
+              <div className="pb-3 text-[20px] font-normal max-xl:text-[30px]" key={index}>
                 <p>{answer}</p>
               </div>
             );
           })}
           {additional && additional.title && (
-            <div className="pb-5 text-[20px] font-normal">
+            <div className="pb-5 text-[20px] font-normal max-xl:text-[30px]">
               <p>{additional.title}</p>
               <ul className="list-disc pl-[30px]">
                 {additional.description.map((description, index) => {
                   return (
-                    <li key={index} className="text-[20px] font-normal">
+                    <li key={index} className="text-[20px] font-normal max-xl:text-[30px]">
                       {description}
                     </li>
                   );
@@ -43,7 +43,7 @@ const Question = ({ data: { question, answer, additional }, isOpen, onToggle }) 
             </div>
           )}
           {additional && additional.link && (
-            <div className="pb-5 text-[20px] font-normal">
+            <div className="pb-5 text-[20px] font-normal max-xl:text-[30px]">
               <a href={additional.link} target="_blank" rel="noreferrer">
                 Link
               </a>
