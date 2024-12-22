@@ -74,7 +74,7 @@ const Team = () => {
           );
         }
       })}
-      <div className="mb-[160px] flex h-[160px] w-full items-center justify-center gap-10 bg-primary text-[32px] font-light text-white max-md:flex-col max-md:gap-0 max-sm:text-[20px]">
+      <div className="mb-[160px] mt-[16px] flex h-[160px] w-full items-center justify-center gap-10 bg-primary text-[28px] font-light text-white max-md:flex-col max-md:gap-0 max-sm:text-[20px]">
         <p>Join our team!</p>
         <p>Email us at info@arctherapy.ca</p>
       </div>

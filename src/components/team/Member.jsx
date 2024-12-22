@@ -14,7 +14,7 @@ const Member = ({ data: { img, name, description, extra, top, left, scale, link 
           href={link}
           target="_blank"
           rel="noreferrer"
-          className="mt-10 h-[50px] rounded-xl bg-primary px-5 text-[20px] max-xl:text-[30px] text-ivory max-xl:py-9"
+          className="mt-10 h-[50px] rounded-xl bg-primary px-5 text-[20px] max-xl:text-[30px] text-ivory max-xl:py-9 shadow-[0_0_0_2px_#1F3B1C] hover:bg-ivory hover:text-primary"
         >
           <p className="flex h-full w-full items-center justify-center">Book with {name.match(/^\S+/)[0]}</p>
         </a>

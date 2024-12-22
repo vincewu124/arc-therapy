@@ -274,7 +274,7 @@ const Services = ({ images }) => {
           return (
             <button
               key={service.buttonTitle}
-              className={`h-[42px] rounded-[50px] px-5 text-[20px] font-normal max-xl:text-[30px] max-xl:h-[63px] ${serviceType.buttonTitle === service.buttonTitle ? 'bg-primary text-white' : 'bg-sage text-black'}`}
+              className={`h-[42px] rounded-[50px] px-5 text-[20px] font-normal max-xl:text-[30px] max-xl:h-[63px] hover:text-white hover:bg-primary ${serviceType.buttonTitle === service.buttonTitle ? 'bg-primary text-white' : 'bg-sage text-black'}`}
               onClick={() => selectService(service)}
             >
               {service.buttonTitle}
@@ -289,7 +289,7 @@ const Services = ({ images }) => {
             href="https://alignrecoverconnect.janeapp.com/"
             target="_blank"
             rel="noreferrer"
-            className={`duration-400 mt-10 whitespace-nowrap rounded-xl bg-primary px-5 py-3 text-[20px] text-ivory max-xl:text-[30px]`}
+            className={`mt-10 whitespace-nowrap shadow-[0_0_0_2px_#1F3B1C] hover:bg-ivory hover:text-primary rounded-xl bg-primary px-5 py-3 text-[20px] text-ivory max-xl:text-[30px]`}
           >
             Book now
           </a>

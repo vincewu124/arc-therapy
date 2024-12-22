@@ -22,9 +22,13 @@ const Home = () => {
 
         <Service />
 
-        <Link to="/services" className="h-[50px] w-[180px] rounded-xl bg-primary text-center" onClick={scrollTop}>
+        <Link
+          to="/services"
+          className="h-[50px] w-[180px] rounded-xl bg-primary text-center group hover:bg-ivory shadow-[0_0_0_2px_#1F3B1C] hover:shadow-[0_0_0_2px_#1F3B1C]"
+          onClick={scrollTop}
+        >
           <div className="flex h-full w-full items-center justify-center">
-            <p className="text-xl font-light text-ivory">See all services</p>
+            <p className="text-xl font-light text-ivory group-hover:text-primary">See all services</p>
           </div>
         </Link>
       </div>

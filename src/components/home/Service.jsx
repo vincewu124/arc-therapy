@@ -25,7 +25,7 @@ const serviceData = [
   },
   {
     img: chiroImg,
-    title: 'Chiopractic',
+    title: 'Chiropractic',
     attribution: false,
   },
   {

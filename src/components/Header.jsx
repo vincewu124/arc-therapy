@@ -25,19 +25,19 @@ export default function Header() {
         </Link>
         <div className="flex items-center">
           <div className="flex w-[401px] justify-between">
-            <Link to="/" onClick={scrollTop}>
+            <Link to="/" onClick={scrollTop} className="hover:text-sage">
               Home
             </Link>
-            <Link to="/about" onClick={scrollTop}>
+            <Link to="/about" onClick={scrollTop} className="hover:text-sage">
               About
             </Link>
-            <Link to="/services" onClick={scrollTop}>
+            <Link to="/services" onClick={scrollTop} className="hover:text-sage">
               Services
             </Link>
-            <Link to="/team" onClick={scrollTop}>
+            <Link to="/team" onClick={scrollTop} className="hover:text-sage">
               Our team
             </Link>
-            <Link to="/faq" onClick={scrollTop}>
+            <Link to="/faq" onClick={scrollTop} className="hover:text-sage">
               FAQ
             </Link>
           </div>
@@ -45,7 +45,7 @@ export default function Header() {
             href="https://alignrecoverconnect.janeapp.com/"
             target="_blank"
             rel="noreferrer"
-            className="ml-12 mr-16 whitespace-nowrap rounded-xl px-3 py-2 outline outline-2"
+            className="ml-12 mr-16 whitespace-nowrap rounded-xl px-3 py-2  hover:bg-ivory hover:text-primary hover:outline-ivory shadow-[0_0_0_2px_#F0EDE0]"
           >
             Book Now
           </a>
@@ -58,10 +58,10 @@ export default function Header() {
             <img src={logo} alt="logo" className="h-12 w-auto object-contain" />
           </Link>
         </div>
-        <button onClick={toggleMenu} className="mr-4 p-6">
-          <div className={`mb-2 h-1 w-8 rounded bg-white`}></div>
-          <div className={`mb-2 h-1 w-8 rounded bg-white`}></div>
-          <div className={`mb-2 h-1 w-8 rounded bg-white`}></div>
+        <button onClick={toggleMenu} className="mr-4 p-6 group">
+          <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
+          <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
+          <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
         </button>
       </nav>
 
@@ -73,31 +73,31 @@ export default function Header() {
                 <img src={logo} alt="logo" className="relative h-12 w-auto object-contain" />
               </Link>
             </div>
-            <button className="mr-10 h-8 w-8 text-[50px] text-white" onClick={toggleMenu}>
+            <button className="mr-10 h-8 w-8 text-[50px] text-white hover:text-sage" onClick={toggleMenu}>
               ✕
             </button>
           </div>
           <Link to="/" onClick={menuLink}>
-            <p className="text-[50px] font-light">Home</p>
+            <p className="text-[50px] font-light hover:text-sage">Home</p>
           </Link>
           <Link to="/about" onClick={menuLink}>
-            <p className="text-[50px] font-light">About</p>
+            <p className="text-[50px] font-light hover:text-sage">About</p>
           </Link>
           <Link to="/services" onClick={menuLink}>
-            <p className="text-[50px] font-light">Services</p>
+            <p className="text-[50px] font-light hover:text-sage">Services</p>
           </Link>
           <Link to="/team" onClick={menuLink}>
-            <p className="text-[50px] font-light">Our team</p>
+            <p className="text-[50px] font-light hover:text-sage">Our team</p>
           </Link>
           <Link to="/faq" onClick={menuLink}>
-            <p className="text-[50px] font-light">FAQ</p>
+            <p className="text-[50px] font-light hover:text-sage">FAQ</p>
           </Link>
           <a
             href="https://alignrecoverconnect.janeapp.com"
             target="_blank"
             rel="noreferrer"
             onClick={toggleMenu}
-            className="mt-10 whitespace-nowrap rounded-[10px] px-5 py-5 outline outline-2"
+            className="mt-10 whitespace-nowrap rounded-[12px] px-5 py-5 hover:bg-ivory hover:text-primary  shadow-[0_0_0_2px_#F0EDE0]"
           >
             <p className="text-[32px] font-light">Book Now</p>
           </a>
