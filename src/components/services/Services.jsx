@@ -23,6 +23,7 @@ const Services = ({ images }) => {
         'Improved Sleep Quality',
         'Headache Relief',
       ],
+      link: 'https://alignrecoverconnect.janeapp.com/#/massage-therapy',
     },
     {
       title: 'Physiotherapy',
@@ -44,6 +45,7 @@ const Services = ({ images }) => {
         'Pain Education',
         'Improved Quality of Life',
       ],
+      link: 'https://alignrecoverconnect.janeapp.com/#/physiotherapy',
     },
     {
       title: 'Kinesiology',
@@ -63,6 +65,7 @@ const Services = ({ images }) => {
         'Enhanced Balance and Coordination',
         'Functional Independence',
       ],
+      link: 'https://alignrecoverconnect.janeapp.com/',
     },
     {
       title: 'Chiropractic',
@@ -83,6 +86,7 @@ const Services = ({ images }) => {
         'Stress Reduction',
         'Better Sleep Quality',
       ],
+      link: 'https://alignrecoverconnect.janeapp.com/',
     },
     {
       title: 'Acupuncture',
@@ -124,6 +128,7 @@ const Services = ({ images }) => {
         'Menstrual and Reproductive Health',
         'Overall Well-Being',
       ],
+      link: 'https://alignrecoverconnect.janeapp.com/#/intramuscular-stimulation-ims-or-dry-needling',
     },
   ]);
 
@@ -154,6 +159,7 @@ const Services = ({ images }) => {
             'Improved Sleep Quality',
             'Headache Relief',
           ],
+          link: 'https://alignrecoverconnect.janeapp.com/#/massage-therapy',
         },
         {
           title: 'Physiotherapy',
@@ -175,6 +181,7 @@ const Services = ({ images }) => {
             'Pain Education',
             'Improved Quality of Life',
           ],
+          link: 'https://alignrecoverconnect.janeapp.com/#/physiotherapy',
         },
         {
           title: 'Kinesiology',
@@ -194,6 +201,7 @@ const Services = ({ images }) => {
             'Enhanced Balance and Coordination',
             'Functional Independence',
           ],
+          link: 'https://alignrecoverconnect.janeapp.com/',
         },
         {
           title: 'Chiropractic',
@@ -214,6 +222,7 @@ const Services = ({ images }) => {
             'Stress Reduction',
             'Better Sleep Quality',
           ],
+          link: 'https://alignrecoverconnect.janeapp.com/',
         },
         {
           title: 'Acupuncture',
@@ -255,6 +264,7 @@ const Services = ({ images }) => {
             'Menstrual and Reproductive Health',
             'Overall Well-Being',
           ],
+          link: 'https://alignrecoverconnect.janeapp.com/#/intramuscular-stimulation-ims-or-dry-needling',
         },
       ]);
     }
@@ -288,17 +298,7 @@ const Services = ({ images }) => {
         })}
       </div>
       <div className="flex w-full flex-col items-center px-10 pb-40">
-        <div className="flex flex-col items-start">
-          <Service data={serviceType} />
-          <a
-            href="https://alignrecoverconnect.janeapp.com/"
-            target="_blank"
-            rel="noreferrer"
-            className={`mt-10 whitespace-nowrap shadow-[0_0_0_2px_#1F3B1C] hover:bg-ivory hover:text-primary rounded-xl bg-primary px-5 py-3 text-[20px] text-ivory max-xl:text-[30px]`}
-          >
-            Book now
-          </a>
-        </div>
+        <Service data={serviceType} />
       </div>
     </div>
   );
