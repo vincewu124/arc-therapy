@@ -281,7 +281,7 @@ const Services = ({ images }) => {
   return (
     <div className="flex flex-col items-center font-spaceGrotesk">
       <div className="flex h-[170px] flex-col items-center justify-center pt-[25px]">
-        <header className="text-[56px] font-bold">Services</header>
+        <header className="text-[48px] font-bold">Services</header>
         <div className="h-[6px] w-[140px] rounded-[4px] border bg-sage"></div>
       </div>
       <div className="flex w-[805px] flex-row justify-between pb-14 pt-10 max-xl:flex-col max-xl:items-center max-xl:gap-5 max-xl:pt-5">

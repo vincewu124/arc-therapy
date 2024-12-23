@@ -58,11 +58,22 @@ export default function Header() {
             <img src={logo} alt="logo" className="h-12 w-auto object-contain" />
           </Link>
         </div>
-        <button onClick={toggleMenu} className="mr-4 p-6 group">
-          <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
-          <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
-          <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
-        </button>
+        <div className="flex flex-row-reverse items-center justify-center">
+          <button onClick={toggleMenu} className="mr-4 p-6 group">
+            <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
+            <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
+            <div className={`mb-2 h-1 w-8 rounded bg-white group-hover:bg-sage`}></div>
+          </button>
+          <a
+            href="https://alignrecoverconnect.janeapp.com"
+            target="_blank"
+            rel="noreferrer"
+            onClick={toggleMenu}
+            className="whitespace-nowrap rounded-[12px] px-5 py-3 hover:bg-ivory hover:text-primary  shadow-[0_0_0_2px_#F0EDE0] max-sm:hidden"
+          >
+            <p className="text-[32px] font-light">Book Now</p>
+          </a>
+        </div>
       </nav>
 
       {isMenuOpen && (
