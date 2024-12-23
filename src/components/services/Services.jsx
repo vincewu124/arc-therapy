@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Service from './Service';
+import { useLocation } from 'react-router-dom';
 
 const Services = ({ images }) => {
   const [data, setData] = useState([
@@ -125,7 +126,11 @@ const Services = ({ images }) => {
       ],
     },
   ]);
-  const [serviceType, setServiceType] = useState(data[0]);
+
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const select = queryParams.get('select');
+  const [serviceType, setServiceType] = useState(data.find((service) => service.buttonTitle.toLowerCase() === select) || data[0]);
 
   useEffect(() => {
     if (images.length > 0) {
@@ -256,8 +261,8 @@ const Services = ({ images }) => {
   }, [images]);
 
   useEffect(() => {
-    setServiceType(data[0]);
-  }, [data]);
+    setServiceType(data.find((service) => service.buttonTitle.toLowerCase() === select) || data[0]);
+  }, [data, select]);
 
   const selectService = (service) => {
     setServiceType(service);

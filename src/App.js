@@ -23,11 +23,11 @@ function App() {
     };
 
     const imagePaths = [
-      new URL('./assets/services/serviceMassage.png', import.meta.url).href,
-      new URL('./assets/services/servicePhysio.png', import.meta.url).href,
-      new URL('./assets/services/serviceKin.png', import.meta.url).href,
-      new URL('./assets/services/serviceChiro.png', import.meta.url).href,
-      new URL('./assets/services/serviceAcu.png', import.meta.url).href,
+      new URL('./assets/services/serviceMassage.jpg', import.meta.url).href,
+      new URL('./assets/services/servicePhysio.jpg', import.meta.url).href,
+      new URL('./assets/services/serviceKin.jpg', import.meta.url).href,
+      new URL('./assets/services/serviceChiro.jpg', import.meta.url).href,
+      new URL('./assets/services/serviceAcu.jpg', import.meta.url).href,
     ];
 
     setImages(preloadImages(imagePaths));

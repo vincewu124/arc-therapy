@@ -3,7 +3,7 @@ import massageImg from '../../assets/homeServices/massage.png';
 import physioImg from '../../assets/homeServices/physio.png';
 import kinImg from '../../assets/homeServices/kin.png';
 import chiroImg from '../../assets/homeServices/chiro.png';
-import acuImg from '../../assets/homeServices/acu.png';
+import acuImg from '../../assets/homeServices/acu.jpg';
 import btn from '../../assets/homeServices/carouselButton.svg';
 import ServiceCard from './ServiceCard';
 
@@ -11,27 +11,28 @@ const serviceData = [
   {
     img: massageImg,
     title: 'Registered massage therapy',
-    attribution: false,
+    link: 'rmt',
   },
   {
     img: physioImg,
     title: 'Physiotherapy',
-    attribution: false,
+    link: 'physiotherapy',
   },
   {
     img: kinImg,
     title: 'Kinesiology',
-    attribution: false,
+    link: 'kinesiology',
   },
   {
     img: chiroImg,
     title: 'Chiropractic',
-    attribution: false,
+    link: 'chiropractic',
   },
   {
     img: acuImg,
     title: 'Acupuncture',
-    attribution: true,
+    link: 'acupuncture',
+    style: true,
   },
 ];
 

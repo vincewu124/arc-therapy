@@ -4,7 +4,7 @@ const Service = ({ data: { title, img, description, types, benefitType, benefits
   return (
     <div className={`max-w-[1200px]`}>
       <div className="flex flex-col items-start">
-        <img src={img} alt="" className={`min-h-[264px] w-full object-cover pb-10`} />
+        <img src={img} alt="" className={`h-[400px] w-full object-cover pb-10`} />
         <header className="pb-11 text-[32px] font-medium max-xl:text-[48px]">{title}</header>
         <span className="pb-10 text-[20px] font-normal max-xl:text-[30px]">{description}</span>
         {types &&

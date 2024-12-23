@@ -51,7 +51,7 @@ const Reviews = () => {
 
   const reviewRef = useRef(null);
   return (
-    <div className="relative flex w-full justify-center px-10">
+    <div className="relative flex w-full justify-center px-10 max-xl:pb-[55px]">
       <div
         ref={reviewRef}
         className="flex justify-start space-x-4 overflow-x-auto scroll-smooth"
