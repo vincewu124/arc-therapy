@@ -1,34 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ecdf46e.css",
-    "main.js": "/static/js/main.a64fd734.js",
+    "main.css": "/static/css/main.ea99eaa7.css",
+    "main.js": "/static/js/main.60f33b38.js",
     "static/media/mainBanner.png": "/static/media/mainBanner.f0e5579ded7be045e43c.png",
     "static/media/mobileBanner.png": "/static/media/mobileBanner.cc6429700a19a63b561a.png",
+    "static/media/serviceAcu.jpg": "/static/media/serviceAcu.78a5372ace147f91925d.jpg",
     "static/media/shiv.jpg": "/static/media/shiv.d1add99bb792950df645.jpg",
     "static/media/movement.jpg": "/static/media/movement.42aa80abbbbb60f2b105.jpg",
     "static/media/kevin.jpg": "/static/media/kevin.720f01feb53de91fe96d.jpg",
     "static/media/lilli.jpg": "/static/media/lilli.5872f091251bd3a01c80.jpg",
+    "static/media/serviceMassage.jpg": "/static/media/serviceMassage.4f9b669e820026bbb66d.jpg",
     "static/media/share.jpg": "/static/media/share.87ec583c69c8d1011928.jpg",
     "static/media/care.jpg": "/static/media/care.2831b094b2d895f02749.jpg",
-    "static/media/serviceMassage.png": "/static/media/serviceMassage.24fea66d9d1319b04e37.png",
-    "static/media/serviceKin.png": "/static/media/serviceKin.b2e6d28b4ae6f052c924.png",
-    "static/media/serviceAcu.png": "/static/media/serviceAcu.a3fdea3faa0ee0b81973.png",
-    "static/media/serviceChiro.png": "/static/media/serviceChiro.de42a7657c5c60fecd85.png",
-    "static/media/servicePhysio.png": "/static/media/servicePhysio.b162b8b7b0a5e5b8e0a1.png",
+    "static/media/serviceKin.jpg": "/static/media/serviceKin.1175409f272188ae29db.jpg",
+    "static/media/serviceChiro.jpg": "/static/media/serviceChiro.0da5419bcba3534c3512.jpg",
     "static/media/hamraj.jpeg": "/static/media/hamraj.caff268385364713d0e4.jpeg",
+    "static/media/servicePhysio.jpg": "/static/media/servicePhysio.657cd135678f914f5bc7.jpg",
     "static/media/massage.png": "/static/media/massage.a67b6f105369c63334f6.png",
     "static/media/kin.png": "/static/media/kin.b27c60671abc71be805f.png",
     "static/media/chiro.png": "/static/media/chiro.4422e5bf014b8219cc4b.png",
+    "static/media/acu.jpg": "/static/media/acu.6ea1330239548c038564.jpg",
     "static/media/physio.png": "/static/media/physio.fa2a2cc88b04ec3ad932.png",
-    "static/media/acu.png": "/static/media/acu.149aafd9d87bb7660847.png",
     "static/media/fullWordmark-White.png": "/static/media/fullWordmark-White.972c6a1aa24244e0a9ee.png",
     "index.html": "/index.html",
     "static/media/carouselButton.svg": "/static/media/carouselButton.1ca830025ed34143496e598e666a68aa.svg",
-    "main.1ecdf46e.css.map": "/static/css/main.1ecdf46e.css.map",
-    "main.a64fd734.js.map": "/static/js/main.a64fd734.js.map"
+    "main.ea99eaa7.css.map": "/static/css/main.ea99eaa7.css.map",
+    "main.60f33b38.js.map": "/static/js/main.60f33b38.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ecdf46e.css",
-    "static/js/main.a64fd734.js"
+    "static/css/main.ea99eaa7.css",
+    "static/js/main.60f33b38.js"
   ]
 }
