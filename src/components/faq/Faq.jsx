@@ -67,7 +67,7 @@ const faqData = [
       `We accept most insurance plans. If you have more than one insurance plan, we need to bill your primary insurance first. Telus eClaims does not support direct billing for secondary insurances. If your secondary coverage is through Telus eClaims, we'll provide you with a receipt that you'll need to submit manually to your secondary insurance provider. Please check the link to see what providers are under Telus eClaims.`,
     ],
     additional: {
-      link: 'https://google.ca',
+      link: 'https://www.telus.com/en/health/health-professionals/allied-healthcare-professionals/eclaims',
     },
   },
   {

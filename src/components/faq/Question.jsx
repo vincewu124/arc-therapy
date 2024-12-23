@@ -43,7 +43,7 @@ const Question = ({ data: { question, answer, additional }, isOpen, onToggle }) 
             </div>
           )}
           {additional && additional.link && (
-            <div className="pb-5 text-[20px] font-normal max-xl:text-[30px]">
+            <div className="pb-5 text-[20px] font-normal max-xl:text-[30px] text-primary underline">
               <a href={additional.link} target="_blank" rel="noreferrer">
                 Link
               </a>
