@@ -11,7 +11,7 @@ const ServiceCard = ({ service: { img, title, link, style } }) => {
           <img
             src={img}
             alt="Massage"
-            className="relative h-[248px] w-auto max-xl:h-[372px]"
+            className="relative h-[248px] w-auto max-xl:h-[372px] object-cover"
             style={style ? { transform: `scale(1.5)`, right: '30px' } : {}}
           />
         </div>
