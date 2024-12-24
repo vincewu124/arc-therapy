@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-10 flex h-100 items-center bg-primary font-spaceGrotesk text-ivory max-xl:h-[150px]">
       <nav className="flex w-full items-center justify-between max-xl:hidden">
-        <Link to="/">
+        <Link to="/" onClick={scrollTop}>
           <img src={logo} alt="logo" className="relative left-[72px] h-12 w-auto object-contain" />
         </Link>
         <div className="flex items-center">
@@ -54,7 +54,7 @@ export default function Header() {
 
       <nav className="hidden h-full w-full flex-row items-center justify-between bg-primary max-xl:flex">
         <div className="ml-[72px]">
-          <Link to="/">
+          <Link to="/" onClick={scrollTop}>
             <img src={logo} alt="logo" className="h-12 w-auto object-contain" />
           </Link>
         </div>
