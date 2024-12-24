@@ -65,7 +65,7 @@ const Services = ({ images }) => {
         'Enhanced Balance and Coordination',
         'Functional Independence',
       ],
-      link: 'https://alignrecoverconnect.janeapp.com/',
+      link: 'https://alignrecoverconnect.janeapp.com/#/kinesiology',
     },
     {
       title: 'Chiropractic',
@@ -86,7 +86,7 @@ const Services = ({ images }) => {
         'Stress Reduction',
         'Better Sleep Quality',
       ],
-      link: 'https://alignrecoverconnect.janeapp.com/',
+      link: 'https://alignrecoverconnect.janeapp.com/#/chiropractic',
     },
     {
       title: 'Acupuncture',
@@ -128,7 +128,7 @@ const Services = ({ images }) => {
         'Menstrual and Reproductive Health',
         'Overall Well-Being',
       ],
-      link: 'https://alignrecoverconnect.janeapp.com/#/intramuscular-stimulation-ims-or-dry-needling',
+      link: 'https://alignrecoverconnect.janeapp.com/#/acupuncture',
     },
   ]);
 
@@ -201,7 +201,7 @@ const Services = ({ images }) => {
             'Enhanced Balance and Coordination',
             'Functional Independence',
           ],
-          link: 'https://alignrecoverconnect.janeapp.com/',
+          link: 'https://alignrecoverconnect.janeapp.com/#/kinesiology',
         },
         {
           title: 'Chiropractic',
@@ -222,7 +222,7 @@ const Services = ({ images }) => {
             'Stress Reduction',
             'Better Sleep Quality',
           ],
-          link: 'https://alignrecoverconnect.janeapp.com/',
+          link: 'https://alignrecoverconnect.janeapp.com/#/chiropractic',
         },
         {
           title: 'Acupuncture',
@@ -264,7 +264,7 @@ const Services = ({ images }) => {
             'Menstrual and Reproductive Health',
             'Overall Well-Being',
           ],
-          link: 'https://alignrecoverconnect.janeapp.com/#/intramuscular-stimulation-ims-or-dry-needling',
+          link: 'https://alignrecoverconnect.janeapp.com/#/acupuncture',
         },
       ]);
     }

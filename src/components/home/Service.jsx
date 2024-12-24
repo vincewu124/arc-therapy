@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import massageImg from '../../assets/homeServices/massage.png';
-import physioImg from '../../assets/homeServices/physio.png';
+import physioImg from '../../assets/homeServices/physio.jpg';
 import kinImg from '../../assets/homeServices/kin.png';
 import chiroImg from '../../assets/homeServices/chiro.png';
 import acuImg from '../../assets/homeServices/acu.jpg';
@@ -17,6 +17,7 @@ const serviceData = [
     img: physioImg,
     title: 'Physiotherapy',
     link: 'physiotherapy',
+    style: { transform: `scale(1.1)`, right: '10px', top: '5px' },
   },
   {
     img: kinImg,
@@ -32,7 +33,7 @@ const serviceData = [
     img: acuImg,
     title: 'Acupuncture',
     link: 'acupuncture',
-    style: true,
+    style: { transform: `scale(1.5)`, right: '30px' },
   },
 ];
 
