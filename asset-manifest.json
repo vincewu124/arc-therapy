@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.817d3a62.css",
-    "main.js": "/static/js/main.ff408cac.js",
+    "main.js": "/static/js/main.b8567898.js",
     "static/media/mainBanner.png": "/static/media/mainBanner.f0e5579ded7be045e43c.png",
     "static/media/mobileBanner.png": "/static/media/mobileBanner.cc6429700a19a63b561a.png",
     "static/media/serviceAcu.jpg": "/static/media/serviceAcu.78a5372ace147f91925d.jpg",
@@ -25,10 +25,10 @@
     "index.html": "/index.html",
     "static/media/carouselButton.svg": "/static/media/carouselButton.1ca830025ed34143496e598e666a68aa.svg",
     "main.817d3a62.css.map": "/static/css/main.817d3a62.css.map",
-    "main.ff408cac.js.map": "/static/js/main.ff408cac.js.map"
+    "main.b8567898.js.map": "/static/js/main.b8567898.js.map"
   },
   "entrypoints": [
     "static/css/main.817d3a62.css",
-    "static/js/main.ff408cac.js"
+    "static/js/main.b8567898.js"
   ]
 }
