@@ -51,7 +51,7 @@ const Home = () => {
             <p>Address: 135-6020 Blundell Road</p>
             <p>Phone: 604-285-9922</p>
             <p>Office Hours: 9am - 5pm</p>
-            <p>Email: info@arctherpy.ca</p>
+            <p>Email: info@arctherapy.ca</p>
           </div>
         </div>
 
