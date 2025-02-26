@@ -11,7 +11,8 @@ const teamData = [
     img: shiv,
     name: 'Shiv Sidhu',
     description: `Shiv's goal is to help patients get back to doing what they love pain-free. He believes that the combination of manual therapy, nutrition, and exercise is essential for maintaining the optimal health of the body and mind. He understands that no patient is the same thus he aims to achieve their goals by customizing each treatment plan to cater to individual needs. He incorporates a variety of modalities into his treatment ranging from trigger point release, TMJ Disorder specific techniques, active release techniques, PNF stretching, myofascial techniques, joint mobilizations, and Swedish massage.`,
-    extra: 'Shiv is currently rehabbing a ruptured Achilles, booking will be limited until full recovery.',
+    extra:
+      'Shiv is currently rehabbing a ruptured Achilles, booking will be limited until full recovery.',
     top: '-55px',
     left: '0px',
     scale: '1.1',
@@ -37,16 +38,16 @@ const teamData = [
     scale: '1.2',
     link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/2',
   },
-  {
-    img: hamraj,
-    name: 'Hamraj Sidhu',
-    description: `During Hamraj's co-op experience as a Kinesiology student, he worked closely with Kyle and realized his passion for physiotherapy. Hamraj enjoys working with his patients and developing individualized plans that best meet their specific goals and lifestyle. Hamraj has taken advanced courses and training in manual therapy, total spine manipulation, and intramuscular stimulation, also known as IMS (modern dry needling). His approach focuses on manual therapy, education, and exercise.`,
-    extra: `Born in Mackenzie, BC, Hamraj spent his childhood enjoying the outdoors. On his off days, you can often find Hamraj at the gym or spending time with family and friends.`,
-    top: '80px',
-    left: '40px',
-    scale: '1.3',
-    link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/5',
-  },
+  // {
+  //   img: hamraj,
+  //   name: 'Hamraj Sidhu',
+  //   description: `During Hamraj's co-op experience as a Kinesiology student, he worked closely with Kyle and realized his passion for physiotherapy. Hamraj enjoys working with his patients and developing individualized plans that best meet their specific goals and lifestyle. Hamraj has taken advanced courses and training in manual therapy, total spine manipulation, and intramuscular stimulation, also known as IMS (modern dry needling). His approach focuses on manual therapy, education, and exercise.`,
+  //   extra: `Born in Mackenzie, BC, Hamraj spent his childhood enjoying the outdoors. On his off days, you can often find Hamraj at the gym or spending time with family and friends.`,
+  //   top: '80px',
+  //   left: '40px',
+  //   scale: '1.3',
+  //   link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/5',
+  // },
 ];
 
 const Team = () => {
