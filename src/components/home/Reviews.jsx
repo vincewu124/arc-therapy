@@ -10,9 +10,9 @@ const reviewData = [
     link: 'https://maps.app.goo.gl/vJdk9qxzKEEV1cqE8',
   },
   {
-    name: 'neera dhingra',
-    comment: `I had an amazing experience at Arc Therapy! The staff is professional and attentive, and the atmosphere is calming. Both Shiv and Lilli are awesome RMTs. They helped fix my TMJ problem and I left each session feeling much better. Highly recommend this place!`,
-    date: '2024-12-11',
+    name: 'N D',
+    comment: `I have been seeing Shiv for my TMJ problem, and he has helped me improve so much! I left each session feeling much better. He took the time to understand and diagnose my issue properly and adjusted my treatment based on my feedback. I'd highly recommend him!`,
+    date: '2025-3-12',
     color: '#7B1FA2',
     link: 'https://maps.app.goo.gl/RjQWwmDQqYB1XAmg7',
   },
@@ -61,7 +61,16 @@ const Reviews = () => {
         }}
       >
         {reviewData.map((review, index) => {
-          return <Review key={index} name={review.name} comment={review.comment} date={review.date} color={review.color} link={review.link} />;
+          return (
+            <Review
+              key={index}
+              name={review.name}
+              comment={review.comment}
+              date={review.date}
+              color={review.color}
+              link={review.link}
+            />
+          );
         })}
       </div>
     </div>
