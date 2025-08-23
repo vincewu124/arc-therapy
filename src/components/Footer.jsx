@@ -13,7 +13,12 @@ export default function Footer() {
           <div className="max-footer:pl-10 flex items-center pl-20">
             <img src={logo} alt="logo" className="max-footer:h-[32px] h-[78px] w-auto" />
             <div className="max-footer:relative max-footer:top-[-5px] max-footer:ml-[40px] max-footer:max-h-[84px] max-footer:w-full max-footer:flex-col ml-[54px] flex h-[26px] w-[586px] justify-between gap-2">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="inline-block">
+              <a
+                href="https://instagram.com/arctherapyy/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block"
+              >
                 Instagram
               </a>
               <p>Email: info@arctherapy.ca</p>
