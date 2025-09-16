@@ -10,6 +10,7 @@ import vivian from '../../assets/team/member_vivian.webp';
 import angus from '../../assets/team/member_angus.webp';
 import mika from '../../assets/team/member_mika.webp';
 import faith from '../../assets/team/member_faith.webp';
+import edward from '../../assets/team/member_edward.webp';
 import andrew from '../../assets/team/member_andrew.webp';
 import jorrel from '../../assets/team/member_jorrel.webp';
 
@@ -105,12 +106,12 @@ const teamData = [
     link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/16',
   },
   {
-    // img: ,
+    img: edward,
     name: 'Edward Yao',
     description: `After experiencing a series of recurring injuries, Edward developed a passion for understanding how the human body heals. He discovered that massage therapy not only supports recovery from injuries but also enhances overall wellbeing. Drawing on his background as a former competitive athlete, Edward has a particular interest in helping athletes overcome physical challenges and perform at their best.\n\nSince graduating, he has continued to expand his expertise through courses in myofascial techniques, taping, and instrument-assisted soft tissue mobilization (Rockblade).\n\nBeyond his work as a Registered Massage Therapist, Edward is a black belt in karate, a former competitor for the provincial team, and also runs his own karate program.`,
-    top: '-10px',
-    left: '0px',
-    scale: '1',
+    top: '40px',
+    left: '20px',
+    scale: '1.6',
     link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/15',
   },
   {
