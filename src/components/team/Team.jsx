@@ -10,7 +10,6 @@ import vivian from '../../assets/team/member_vivian.webp';
 import angus from '../../assets/team/member_angus.webp';
 import mika from '../../assets/team/member_mika.webp';
 import faith from '../../assets/team/member_faith.webp';
-import edward from '../../assets/team/member_edward.webp';
 import andrew from '../../assets/team/member_andrew.webp';
 import jorrel from '../../assets/team/member_jorrel.webp';
 
@@ -106,7 +105,7 @@ const teamData = [
     link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/16',
   },
   {
-    img: edward,
+    // img: ,
     name: 'Edward Yao',
     description: `After experiencing a series of recurring injuries, Edward developed a passion for understanding how the human body heals. He discovered that massage therapy not only supports recovery from injuries but also enhances overall wellbeing. Drawing on his background as a former competitive athlete, Edward has a particular interest in helping athletes overcome physical challenges and perform at their best.\n\nSince graduating, he has continued to expand his expertise through courses in myofascial techniques, taping, and instrument-assisted soft tissue mobilization (Rockblade).\n\nBeyond his work as a Registered Massage Therapist, Edward is a black belt in karate, a former competitor for the provincial team, and also runs his own karate program.`,
     top: '-10px',
@@ -118,9 +117,9 @@ const teamData = [
     img: andrew,
     name: 'Andrew Yang',
     description: `Andrew Yang is a registered and licensed acupuncturist with the College of Complementary Health Professionals BC (CCHPBC). He offers a wide range of Traditional Chinese Medicine (TCM) modalities, including electro-acupuncture, acupressure, cupping, and moxibustion. Andrew is known for his empathetic and attentive approach, taking the time to carefully listen to his patients and develop treatment plans tailored to their unique needs. His goal is not only to relieve symptoms but also to support overall health, balance, and long-term wellness.\n\nAndrew believes in integrating the wisdom of TCM with a compassionate understanding of modern health challenges. He is dedicated to creating a calm and supportive environment where patients feel heard, respected, and empowered in their healing journey.\n\nOutside of practice, Andrew enjoys staying active through badminton, hiking, and skiing.`,
-    top: '50px',
-    left: '-5px',
-    scale: '1.3',
+    top: '-10px',
+    left: '0px',
+    scale: '1',
     link: 'https://alignrecoverconnect.janeapp.com/#/staff_member/10',
   },
   {
