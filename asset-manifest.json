@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9e5cc5dd.css",
-    "main.js": "/static/js/main.a0c227ed.js",
+    "main.js": "/static/js/main.9e340271.js",
     "static/media/mainBanner.png": "/static/media/mainBanner.f0e5579ded7be045e43c.png",
     "static/media/mobileBanner.png": "/static/media/mobileBanner.2c36e8b1b0e6094985d1.png",
     "static/media/serviceAcu.jpg": "/static/media/serviceAcu.78a5372ace147f91925d.jpg",
@@ -28,15 +28,16 @@
     "static/media/chiro.png": "/static/media/chiro.4422e5bf014b8219cc4b.png",
     "static/media/acu.jpg": "/static/media/acu.6ea1330239548c038564.jpg",
     "static/media/member_andrew.webp": "/static/media/member_andrew.5b7e79910de2d3213a8f.webp",
+    "static/media/member_edward.webp": "/static/media/member_edward.5f29fa27998bfba02394.webp",
     "static/media/member_mika.webp": "/static/media/member_mika.2b3955cec96dae14a096.webp",
     "static/media/fullWordmark-White.png": "/static/media/fullWordmark-White.972c6a1aa24244e0a9ee.png",
     "index.html": "/index.html",
     "static/media/carouselButton.svg": "/static/media/carouselButton.1ca830025ed34143496e598e666a68aa.svg",
     "main.9e5cc5dd.css.map": "/static/css/main.9e5cc5dd.css.map",
-    "main.a0c227ed.js.map": "/static/js/main.a0c227ed.js.map"
+    "main.9e340271.js.map": "/static/js/main.9e340271.js.map"
   },
   "entrypoints": [
     "static/css/main.9e5cc5dd.css",
-    "static/js/main.a0c227ed.js"
+    "static/js/main.9e340271.js"
   ]
 }
